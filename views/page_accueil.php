@@ -1,16 +1,20 @@
 =<!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Loéva</title>
+    <link rel="stylesheet" href="assets/page_accueil.css">
 </head>
 
 <body>
     <div id=entete>
-        <p>Portfilio</p>
-        <p>A propos</p>
-        <p>Contacts</p>
+        <ul class=navigation>
+            <li><a href="/"><img src="images/logo.png" alt=""></a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
+            <li><a href="/about">A propos</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
     </div>
 
 
