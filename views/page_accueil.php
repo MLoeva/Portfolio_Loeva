@@ -1,4 +1,4 @@
-=<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -9,8 +9,8 @@
 
 <body>
     <div id=entete>
+        <a href="/"><img src="images/logo.png" alt=""></a>
         <ul class=navigation>
-            <li><a href="/"><img src="images/logo.png" alt=""></a></li>
             <li><a href="/portfolio">Portfolio</a></li>
             <li><a href="/about">A propos</a></li>
             <li><a href="/contact">Contact</a></li>

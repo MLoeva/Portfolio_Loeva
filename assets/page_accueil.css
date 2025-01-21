@@ -1,12 +1,22 @@
+#entete {
+  display: flex;
+  align-items: center; /* Aligne verticalement le logo et la navigation */
+  justify-content: space-between; /* Sépare le logo à gauche et la navigation à droite */
+  background: rgb(18, 64, 25);
+  padding: 0.5em 1em; /* Espacement autour du contenu */
+}
+
+#entete img {
+  max-width: 30%; /* Taille du logo ajustable */
+  height: auto;
+}
+
 .navigation {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    
-    list-style: none;
-    margin: 0; 
-    background: rgb(18, 64, 25);
-  }
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 .navigation a {
   text-decoration: none;
@@ -16,32 +26,5 @@
 }
 
 .navigation a:hover {
-  background: #c63ff0;
+   background: #c63ff0; /*quand je passe la souris, ça change de couleur */
 }
-
-@media all and (max-width: 800px) {
-  .navigation {
-    justify-content: space-around;
-  }
-}
-
-@media all and (max-width: 600px) {
-  .navigation {
-    flex-flow: column wrap;
-    padding: 0;
-  }
-  .navigation a { 
-    text-align: center; 
-    padding: 10px;
-    border-top: 1px solid rgba(255, 255, 255,0.3); 
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
-  }
-  .navigation li:last-of-type a {
-    border-bottom: none;
-  }
-}
-
-img {
-  max-width : 30%;
-  height : auto;
-  }
