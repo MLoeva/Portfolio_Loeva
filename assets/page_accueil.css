@@ -1,3 +1,15 @@
+body{
+  background-image: url("../images/fond_ecran/IMG_20240728_153341.jpg");
+  background-size: cover; /* Ajuste l'image pour qu'elle couvre tout l'écran */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  background-attachment: fixed; /* L'image reste fixe lors du défilement */
+  background-position: center; /* Centre l'image sur l'écran */
+}
+
+h1{
+  color: antiquewhite;
+}
+
 #entete {
   display: flex;
   align-items: center; /* Aligne verticalement le logo et la navigation */

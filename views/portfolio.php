@@ -15,6 +15,7 @@
             <li><a href="/contact">Contact</a></li>
         </ul>
     </div>
-    <h1>Page portfolio</h1>
+    <h1>Loéva Manceau</h1>
+    <p>Artiste en herbe</p>
 </body>
 </html>
